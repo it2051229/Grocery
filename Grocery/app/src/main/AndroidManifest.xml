@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it2051229.grocery">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Grocery"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="Grocery Items">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddGroceryItemActivity"
+            android:label="Add Grocery Item" />
+        <activity
+            android:name=".UpdateGroceryItemActivity"
+            android:label="Update Grocery Item" />
+        <activity
+            android:name=".FilteredItemsActivity"
+            android:label="Filtered Grocery Items" />
+        <activity android:name=".AddOrReduceCostActivity"></activity>
+    </application>
+
+</manifest>

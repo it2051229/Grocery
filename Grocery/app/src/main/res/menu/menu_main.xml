@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuAddGroceryItem"
+        android:title="Add Grocery Item"
+        />
+    <item
+        android:id="@+id/menuFilteredList"
+        android:title="Filtered List" />
+    <item
+        android:id="@+id/menuExportGroceryItems"
+        android:title="Export Grocery Items"/>
+    <item
+        android:id="@+id/menuImportGroceryItems"
+        android:title="Import Grocery Items" />
+</menu>
